@@ -5,45 +5,45 @@ Content-Type: application/json
 {"name": "Sally"}
 
 ### Get user
-GET {{registrationUrl}}/users/1
+GET {{registrationUrl}}/users/4
 
 ### Get account
-GET {{registrationUrl}}/accounts?ownerId=1
+GET {{registrationUrl}}/accounts?ownerId=4
 
 ### Create project
 POST {{registrationUrl}}/projects
 Content-Type: application/json
 
-{"name": "Basket Weaving III", "accountId": 1}
+{"name": "Basket Weaving III", "accountId": 4}
 
 ### Get projects
-GET {{registrationUrl}}/projects?accountId=1
+GET {{registrationUrl}}/projects?accountId=4
 
 ### Create allocation
 POST {{allocationsUrl}}/allocations
 Content-Type: application/json
 
-{"projectId": 1, "userId": 1, "firstDay": "2015-05-17", "lastDay": "2015-05-18"}
+{"projectId": 4, "userId": 4, "firstDay": "2015-05-17", "lastDay": "2015-05-18"}
 
 ### Get allocations
-GET {{allocationsUrl}}/allocations?projectId=1
+GET {{allocationsUrl}}/allocations?projectId=4
 
 ### Create story
 POST {{backlogUrl}}/stories
 Content-Type: application/json
 
-{"projectId": 1, "name": "Find some reeds"}
+{"projectId": 4, "name": "Find some reeds"}
 
 ### Get stories
-GET {{backlogUrl}}/stories?projectId=1
+GET {{backlogUrl}}/stories?projectId=4
 
 ### Create timesheet
 POST {{timesheetsUrl}}/time-entries/
 Content-Type: application/json
 
-{"projectId": 1, "userId": 1, "date": "2015-05-17", "hours": 6}
+{"projectId": 4, "userId": 4, "date": "2015-05-17", "hours": 6}
 
 ### Get timesheets
-GET {{timesheetsUrl}}/time-entries?userId=1
+GET {{timesheetsUrl}}/time-entries?userId=4
 
 ###
