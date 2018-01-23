@@ -3,7 +3,7 @@ applications:
   path: ./applications/allocations-server/build/libs/allocations-server.jar
   host: allocations-pal-rwl
   memory: 1G
-  instances: 1
+  instances: 3
 
   services:
   - tracker-allocations-database
