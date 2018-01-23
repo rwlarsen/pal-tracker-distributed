@@ -3,7 +3,7 @@ applications:
   path: ./applications/timesheets-server/build/libs/timesheets-server.jar
   host: timesheets-pal-rwl
   memory: 1G
-  instances: 3
+  instances: 1
 
   services:
   - tracker-timesheets-database

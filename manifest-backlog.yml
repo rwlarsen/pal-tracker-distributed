@@ -3,7 +3,7 @@ applications:
   path: ./applications/backlog-server/build/libs/backlog-server.jar
   host: backlog-pal-rwl
   memory: 1G
-  instances: 3
+  instances: 1
 
   services:
   - tracker-backlog-database
