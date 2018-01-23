@@ -23,7 +23,7 @@ GET {{registrationUrl}}/projects?accountId=4
 POST {{allocationsUrl}}/allocations
 Content-Type: application/json
 
-{"projectId": 2, "userId": 2, "firstDay": "2015-05-17", "lastDay": "2015-05-18"}
+{"projectId": 4, "userId": 4, "firstDay": "2015-05-17", "lastDay": "2015-05-18"}
 
 ### Get allocations
 GET {{allocationsUrl}}/allocations?projectId=4
